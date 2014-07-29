@@ -6,15 +6,17 @@
 <!-- submissionFileDownloadDisplayer.jsp -->
 
 <div id="file-download-displayer" style="padding-top:20px;">
+
+    <%-- FILES
     <h3>Data Files Download</h3>
 
-    <%-- FILES --%>
+
     <c:if test="${!empty files}">
          <div class="filelink" style="padding:5px;">
             <mm:dataFiles files="${files}" dccId="${dCCid}"/>
          </div>
     </c:if>
-
+--%>
     <%-- TARBALL --%>
     <div style="padding:2px;">
       <b>

@@ -1,6 +1,7 @@
 <%@ tag body-content="empty" import="java.util.Set, java.util.List"%>
 <%@ attribute name="files" required="true" type="java.lang.Object" %>
 <%@ attribute name="dccId" required="true" type="java.lang.String" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="/WEB-INF/struts-html.tld" prefix="html" %>
 
@@ -17,6 +18,14 @@
 %>
 
   <c:set var="nr" value="<%=filesSize%>" />
+
+  <br></br>
+    <a href="http://data.modencode.org/cgi-bin/findFiles.cgi?download=${fn:substringAfter(dccId, 'modENCODE_')}"
+      title="Access the submission ${nr} files" class="value extlink">
+    <c:out value="${nr} files" /> </a>
+
+
+<%--
   <c:choose>
   <c:when test="${nr > 30}">
   <br></br>
@@ -32,3 +41,4 @@
   </c:forEach>
 </c:otherwise>
 </c:choose>
+--%>

@@ -131,13 +131,13 @@ border-top:1px none #000;
 </c:choose>
 </td>
 <td>
-<%-- FILES --%>
+<%-- FILES
 <c:if test="${!empty files}">
 <div class="filelink" style="padding-left:20px;">
 <mm:dataFiles files="${files}" dccId="${dCCid}"/>
 </div>
 </c:if>
-
+--%>
 <%-- TARBALL --%>
 <div style="padding:2px 20px;">
 <b>
