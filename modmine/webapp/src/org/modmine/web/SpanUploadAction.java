@@ -290,11 +290,11 @@ public class SpanUploadAction extends InterMineAction
 
                 // GBrowse tracks
                 if (request.getSession().getAttribute("GBROWSE_BASE_URL") == null) {
-                    String gbrowseDefaultUrl = "http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/";
+                    String gbrowseDefaultUrl = "http://gbrowse.modencode.org/cgi-bin/gb2/gbrowse/";
                     String gbrowseBaseUrl = GBrowseParser.getGBrowsePrefix();
 
                     String gbrowseImageDefaultUrl =
-                        "http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse_img/";
+                        "http://gbrowse.modencode.org/cgi-bin/gb2/gbrowse_img/";
                     String gbrowseImageBaseUrl = gbrowseBaseUrl.replaceFirst(
                             "gbrowse", "gbrowse_img");
 

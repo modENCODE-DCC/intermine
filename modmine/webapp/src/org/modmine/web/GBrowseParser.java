@@ -37,7 +37,7 @@ public final class GBrowseParser
     private static final String GBROWSE_URL_END = "/?show_tracks=1";
     private static final String GBROWSE_ST_URL_END = "/?action=scan";
     private static final String GBROWSE_DEFAULT_URL =
-            "http://modencode.oicr.on.ca/fgb2/gbrowse/";
+            "http://gbrowse.modencode.org/fgb2/gbrowse/";
     private static final String DCC_PREFIX = "modENCODE_";
     private static final String SEPARATOR = ";";
     // private static final String TRACK_SEPARATOR = "%1E";

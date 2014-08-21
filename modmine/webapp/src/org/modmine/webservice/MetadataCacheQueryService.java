@@ -61,7 +61,7 @@ public class MetadataCacheQueryService
     }
 
     private static final String GBROWSE_DEFAULT_URL =
-        "http://modencode.oicr.on.ca/cgi-bin/gb2/gbrowse/";
+        "http://gbrowse.modencode.org/cgi-bin/gb2/gbrowse/";
 
     private ObjectStore os;
     private String resourcePath;

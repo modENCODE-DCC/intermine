@@ -123,7 +123,7 @@ public class SubListGBrowseTrackController extends TilesAction
         request.setAttribute("tracks", tracks);
 
         String GBROWSE_DEFAULT_URL =
-            "http://modencode.oicr.on.ca/fgb2/gbrowse/";
+            "http://gbrowse.modencode.org/fgb2/gbrowse/";
         String GBROWSE_BASE_URL = GBrowseParser.getGBrowsePrefix();
 
         if (GBROWSE_BASE_URL.equals(null) || GBROWSE_BASE_URL.isEmpty()) {
