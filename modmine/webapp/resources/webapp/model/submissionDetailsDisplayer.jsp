@@ -78,19 +78,19 @@
                   </c:if>
                   <c:if test="${not empty multiplyMappedReadCount}">
                       <tr>
-                        <td>MultiplyMappedReadCount:</td>
+                        <td>Multiply Mapped Read Count:</td>
                         <td><strong>${multiplyMappedReadCount}<strong></td>
                       </tr>
                   </c:if>
                   <c:if test="${not empty uniquelyMappedReadCount}">
                       <tr>
-                        <td>UniquelyMappedReadCount:</td>
+                        <td>Uniquely Mapped Read Count:</td>
                         <td><strong>${uniquelyMappedReadCount}<strong></td>
                       </tr>
                   </c:if>
                   <c:if test="${not empty totalReadCount}">
                       <tr>
-                        <td>TotalReadCount:</td>
+                        <td>Total Read Count:</td>
                         <td><strong>${totalReadCount}<strong></td>
                       </tr>
                   </c:if>
