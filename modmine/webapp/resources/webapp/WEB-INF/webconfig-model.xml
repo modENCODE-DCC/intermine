@@ -599,7 +599,6 @@
       </titles>
     </headerconfig>
     <fields>
-      <fieldconfig fieldExpr="name" label="Assay Factor"/>
       <fieldconfig fieldExpr="title" />
       <fieldconfig fieldExpr="design" />
       <fieldconfig fieldExpr="DCCid" label="DCC id" />
