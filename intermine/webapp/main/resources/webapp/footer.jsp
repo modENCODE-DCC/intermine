@@ -14,7 +14,8 @@
         <div id="contactFormDivButton">
             <im:vspacer height="11" />
             <div class="contactButton">
-                <a href="#" onclick="showContactForm();return false">
+                <a href="mailto:help@modencode.org?Subject=modMine">
+               <!--  <a href="#" onclick="showContactForm();return false"> -->
                     <b><fmt:message key="feedback.title"/></b>
                 </a>
             </div>
@@ -48,9 +49,10 @@
 
     <ul class="footer-links">
         <!-- contact us form link -->
+        <li><a href="mailto:help@modencode.org?Subject=modMine">Contact Us</a></li>
+        <!--
         <li><a href="#" onclick="showContactForm();return false;">Contact Us</a></li>
         <c:set value="${WEB_PROPERTIES['header.links']}" var="headerLinks"/>
-        <!-- web properties -->
         <c:forEach var="entry" items="${headerLinks}" varStatus="status">
             <c:set value="header.links.${entry}" var="linkProp"/>
             <c:choose>
@@ -62,6 +64,7 @@
                 </c:otherwise>
             </c:choose>
         </c:forEach>
+        -->
     </ul>
 
     <!-- mines -->

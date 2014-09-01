@@ -91,7 +91,10 @@
   <ul id="loginbar">
         <li>
             <p id="contactUsLink" style="display:none;" class="alignleft">
-    <a href="#" onclick="showContactForm();return false;"><fmt:message key="feedback.link"/></a>
+    <a href="mailto:help@modencode.org?Subject=modMine">
+    <!-- <a href="#" onclick="showContactForm();return false;">
+    -->
+    <fmt:message key="feedback.link"/></a>
     </p>
         <%-- removed (not working)
         <li>
